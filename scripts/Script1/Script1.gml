@@ -1,2 +1,2 @@
-key_pause = keyboard_check_pressed(vk_escape)
+key_pause = keyboard_check_pressed(vk_escape);
 
