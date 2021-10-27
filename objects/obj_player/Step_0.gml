@@ -10,6 +10,14 @@ if(x < -32){
 	room_goto(rm_gameover);
 }
 
+var _inst = instance_place (x , y , obj_enemy);
+
+if (_inst != noone)
+{
+    instance_destroy (_inst);
+}
+
+
 //Aplicando a gravidade
 if(!place_meeting(x, y + 1, obj_plataforma)) // Se eu não estou tocando a plataforma
 {
@@ -39,7 +47,7 @@ else //Estou tocando a plataforma
 		velV = jump;
 	}
 }
-if(place_meeting(x, y + velV, obj_plataforma))
+if(place_meeting(x, y + velV, obj_plataforma) and !place_meeting(x, y + velV, obj_enemy))
 {
 	while(!place_meeting(x, y + sign(velV), obj_plataforma)) // Enquanto eu não estiver a 1 pixel da plataforma repita isso
 	{
@@ -47,6 +55,21 @@ if(place_meeting(x, y + velV, obj_plataforma))
 	}
 	velV = 0
 }
+if(place_meeting(x - global.velocidade, y, obj_plataforma) and !place_meeting(x - global.velocidade, y, obj_enemy))
+{
+	while(!place_meeting(x - sign(global.velocidade), y, obj_plataforma)) // Enquanto eu não estiver a 1 pixel da plataforma repita isso
+	{
+		x -= sign(global.velocidade);
+	}
+	
+	sprite_index = spr_idle;
+	hspeed =  global.velocidade;
+}
+else
+{
+	hspeed = 0;
+}
+y += velV
 if(place_meeting(x - global.velocidade, y, obj_plataforma))
 {
 	while(!place_meeting(x - sign(global.velocidade), y, obj_plataforma)) // Enquanto eu não estiver a 1 pixel da plataforma repita isso
@@ -61,5 +84,3 @@ else
 {
 	hspeed = 0;
 }
-
-y += velV

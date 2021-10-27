@@ -6,8 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "spr_enemy_mask",
-    "path": "sprites/spr_enemy_mask/spr_enemy_mask.yy",
+    "name": "spr_enemy_run_left",
+    "path": "sprites/spr_enemy_run_left/spr_enemy_run_left.yy",
   },
   "persistent": false,
   "parentObjectId": null,

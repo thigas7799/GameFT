@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Pause",
+    "path": "folders/Objects/Pause.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sair_pause",
