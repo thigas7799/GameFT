@@ -3,17 +3,29 @@
 //	Executa a cada frame por segundo
 
 //Reiniciando jogo
-if(y > 800){ 
+if(y > 800 or x < -32 or global.vida == 0){ 
 	room_goto(rm_gameover);
 } 
-if(x < -32){
-	room_goto(rm_gameover);
-}
 
-var _inst = instance_place (x , y , obj_enemy);
+var _inst = instance_place (x, y , obj_enemy);
 
 if (_inst != noone)
 {
+	global.vida -= 1;
+	
+	if(global.vida == 2)
+	{
+		instance_destroy(obj_coracao3)
+	}
+	else if(global.vida == 1)
+	{
+		instance_destroy(obj_coracao2)
+	}
+	else if(global.vida == 0)
+	{
+		instance_destroy(obj_coracao1)
+	}
+	
     instance_destroy (_inst);
 }
 
@@ -39,7 +51,9 @@ if(!place_meeting(x, y + 1, obj_plataforma)) // Se eu não estou tocando a plata
 }
 else //Estou tocando a plataforma
 {
-	sprite_index = spr_run;
+	if(!(sprite_index == spr_attack1) or wait == 0){
+		sprite_index = spr_run;
+	}
 	
 	velV = 0
 	if(keyboard_check_pressed(vk_space))
@@ -83,4 +97,7 @@ if(place_meeting(x - global.velocidade, y, obj_plataforma))
 else
 {
 	hspeed = 0;
+}
+if(wait > 1){
+	wait -= 1;
 }

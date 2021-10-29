@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 0,
   "type": 0,
   "origin": 7,
   "preMultiplyAlpha": false,
@@ -32,7 +32,7 @@
     "spriteId": {"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

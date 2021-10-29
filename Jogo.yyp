@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_coracao1","path":"objects/obj_coracao1/obj_coracao1.yy",},"order":2,},
     {"id":{"name":"spr_enemy_die","path":"sprites/spr_enemy_die/spr_enemy_die.yy",},"order":3,},
     {"id":{"name":"obj_voltar","path":"objects/obj_voltar/obj_voltar.yy",},"order":1,},
     {"id":{"name":"spr_pause","path":"sprites/spr_pause/spr_pause.yy",},"order":0,},
@@ -11,6 +12,7 @@
     {"id":{"name":"obj_player_idle","path":"objects/obj_player_idle/obj_player_idle.yy",},"order":1,},
     {"id":{"name":"Spr_inicio2","path":"sprites/Spr_inicio2/Spr_inicio2.yy",},"order":1,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":0,},
+    {"id":{"name":"spr_coracao","path":"sprites/spr_coracao/spr_coracao.yy",},"order":9,},
     {"id":{"name":"spr_run","path":"sprites/spr_run/spr_run.yy",},"order":0,},
     {"id":{"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},"order":0,},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},"order":2,},
@@ -21,6 +23,7 @@
     {"id":{"name":"spr_idle","path":"sprites/spr_idle/spr_idle.yy",},"order":2,},
     {"id":{"name":"spr_attack1","path":"sprites/spr_attack1/spr_attack1.yy",},"order":6,},
     {"id":{"name":"spr_fall","path":"sprites/spr_fall/spr_fall.yy",},"order":3,},
+    {"id":{"name":"obj_coracao2","path":"objects/obj_coracao2/obj_coracao2.yy",},"order":3,},
     {"id":{"name":"spr_enemy_damage","path":"sprites/spr_enemy_damage/spr_enemy_damage.yy",},"order":2,},
     {"id":{"name":"obj_inicio","path":"objects/obj_inicio/obj_inicio.yy",},"order":0,},
     {"id":{"name":"Spr_inicio3","path":"sprites/Spr_inicio3/Spr_inicio3.yy",},"order":2,},
@@ -37,6 +40,7 @@
     {"id":{"name":"spr_enemy_run_left","path":"sprites/spr_enemy_run_left/spr_enemy_run_left.yy",},"order":7,},
     {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},"order":1,},
     {"id":{"name":"obj_filtro_background","path":"objects/obj_filtro_background/obj_filtro_background.yy",},"order":0,},
+    {"id":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},"order":3,},
     {"id":{"name":"spr_enemy_mask","path":"sprites/spr_enemy_mask/spr_enemy_mask.yy",},"order":9,},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":0,},
     {"id":{"name":"spr_filtro_background","path":"sprites/spr_filtro_background/spr_filtro_background.yy",},"order":2,},
@@ -44,6 +48,7 @@
     {"id":{"name":"spr_sair","path":"sprites/spr_sair/spr_sair.yy",},"order":1,},
     {"id":{"name":"spr_attack2","path":"sprites/spr_attack2/spr_attack2.yy",},"order":7,},
     {"id":{"name":"spr_clouds","path":"sprites/spr_clouds/spr_clouds.yy",},"order":1,},
+    {"id":{"name":"obj_coracao3","path":"objects/obj_coracao3/obj_coracao3.yy",},"order":4,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},"order":5,},
     {"id":{"name":"obj_controle_inimigo","path":"objects/obj_controle_inimigo/obj_controle_inimigo.yy",},"order":2,},

@@ -4,6 +4,9 @@ randomize();
 
 direcao = choose(1, -1, 1, 1);
 alvo = noone;
-grav = global.velocidade * -0.1;
+grav = -4 * -0.1;
 velV = 0;
-hspeed = direcao * -global.velocidade;
+global.velocidadeEnemy = 4;
+hspeed = direcao * global.velocidadeEnemy;
+
+alarm[0] = room_speed * 3;
