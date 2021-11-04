@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sair2",
-    "path": "sprites/spr_sair2/spr_sair2.yy",
+    "name": "spr_jogar",
+    "path": "sprites/spr_jogar/spr_jogar.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameOver",
-    "path": "folders/Objects/GameOver.yy",
+    "name": "Inicio",
+    "path": "folders/Objects/Inicio.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sair_gameOver",
+  "name": "obj_jogar",
   "tags": [],
   "resourceType": "GMObject",
 }

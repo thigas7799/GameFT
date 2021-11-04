@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sair2",
-    "path": "sprites/spr_sair2/spr_sair2.yy",
+    "name": "spr_config",
+    "path": "sprites/spr_config/spr_config.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameOver",
-    "path": "folders/Objects/GameOver.yy",
+    "name": "Inicio",
+    "path": "folders/Objects/Inicio.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sair_gameOver",
+  "name": "obj_config",
   "tags": [],
   "resourceType": "GMObject",
 }

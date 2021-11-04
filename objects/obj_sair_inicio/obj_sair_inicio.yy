@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sair",
-    "path": "sprites/spr_sair/spr_sair.yy",
+    "name": "spr_sair2",
+    "path": "sprites/spr_sair2/spr_sair2.yy",
   },
   "solid": false,
   "visible": true,

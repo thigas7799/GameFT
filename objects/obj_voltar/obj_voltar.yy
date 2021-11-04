@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_voltar",
-    "path": "sprites/spr_voltar/spr_voltar.yy",
+    "name": "spr_voltar2",
+    "path": "sprites/spr_voltar2/spr_voltar2.yy",
   },
   "solid": false,
   "visible": true,
